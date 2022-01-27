@@ -1,7 +1,7 @@
 # Site
 name: "Memoirs"
 title: "Memoirs"
-description: "Knowing is not enough. I must apply. Willing is not enough. I must do."
+description: "Knowing is not enough. I must apply. </br> Willing is not enough. I must do."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: /jekyll-theme-memoirs
