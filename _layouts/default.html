@@ -80,6 +80,7 @@
     <!-- Site Tag
     ================================================== -->
     {% if page.url == '/' %}
+        <p>알고있는것 만으로는 충분하지 않다. 적용해야 한다. <br>의지만으로는 충분하지 않다. 당장 행동에 옮겨야 한다.</p>
         <p class="sitetag">
             {{ site.description }}
         </p>
@@ -94,7 +95,7 @@
     {% if site.mailchimp-list %}
     <!-- Newsletter
     ================================================== -->
-    <div class="newsletter text-center">
+    <!-- <div class="newsletter text-center">
         <span class="h4"><img src="/{{ site.yklogo }}" class="newsletter-logo" alt="{{site.title}}"> &nbsp; Never miss a <b>story</b> from us, subscribe to our newsletter</span>
         <form action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
             <div class="mc-field-group d-inline-flex">
@@ -102,7 +103,7 @@
             <input type="submit" value="Subscribe" name="subscribe" class="heart">
             </div>
         </form>
-    </div>
+    </div> -->
     {% endif %}
     
 </div>
