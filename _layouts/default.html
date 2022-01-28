@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<link rel="icon" href="/assets/images/logo.png">
+<link rel="icon" href="/assets/images/yklogo.png">
 
 <title>{{ page.title }} | {{site.name}}</title>
 
@@ -41,22 +41,23 @@
 <!-- Begin Sidebar Navigation
 ================================================== -->
 
-<div class="sidebar">    
+<!-- <div class="sidebar">    
 </div>   
-<div class="nav-icon">
+<div class="nav-icon">  
     <div class="hamburger-bar"></div>
 </div>
 <div id="blackover-nav" class="blackover"></div>
 <nav id="menu">
     <ul>
-        <h3>Navigation</h3>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/authors">Contributors <span class="badge badge-primary">new</span></a></li>
+        <h3>YK를 소개 합니다</h3>
+        <li><a href="/">Home 바로 가기</a></li>
+        <li><a href="/about">YK의 생각</a></li>
+        <li><a href="/authors">YK눈 누구인가</a></li>   -->
+        <!-- <span class="badge badge-primary">new</span> -->
         <!-- <li><a target="_blank" href="https://bootstrapstarter.com/jekyll-theme-memoirs/">Get Memoirs</a></li>       -->
-        <li><a href="/contact">Contact</a></li>       
+        <!-- <li><a href="/contact">YK에게 연락하기</a></li>       
     </ul>   
-</nav>
+</nav> -->
 
 {% include search-lunr.html %}
 
@@ -72,7 +73,7 @@
     ================================================== -->
    
     <a class="navbar-brand" href="/">
-        <img src="/{{ site.logo }}" alt="{{ site.name }}">
+        <img src="/{{ site.yklogo }}" alt="{{ site.name }}">
     </a>  
    
 
@@ -94,7 +95,7 @@
     <!-- Newsletter
     ================================================== -->
     <div class="newsletter text-center">
-        <span class="h4"><img src="/{{ site.logo }}" class="newsletter-logo" alt="{{site.title}}"> &nbsp; Never miss a <b>story</b> from us, subscribe to our newsletter</span>
+        <span class="h4"><img src="/{{ site.yklogo }}" class="newsletter-logo" alt="{{site.title}}"> &nbsp; Never miss a <b>story</b> from us, subscribe to our newsletter</span>
         <form action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
             <div class="mc-field-group d-inline-flex">
             <input type="email" placeholder="Your e-mail" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on" required>

@@ -19,9 +19,9 @@ authors:
     display_name: YK
     avatar: 'assets/images/avatar-sal.png'
     email: kimkevin512@naver.com
-    web: https://www.wowthemes.net/donate/
-    twitter: https://twitter.com/wowthemesnet
-    description: "Author of Memoirs, a Bootstrap Medium styled template available for Jekyll. You are currently previewing Jekyll template demo."
+    web: 
+    twitter: 
+    description: "40대란 나이가 새삼스럽게 다가옵니다. 늦은건 아닌지 걱정하기 보다 하루에 하나씩 채워나가기 위해 블로그를 시작합니다."
   # john:
   #   name: John
   #   display_name: John    
