@@ -2,8 +2,8 @@
 name: "영욱 | Youngwook"
 title: "Friend | 친구 | 79"
 description: "Knowing is not enough. I must apply. </br> Willing is not enough. I must do."
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
+yklogo: 'assets/images/yklogo.png'
+favicon: 'assets/images/yklogo.png'
 baseurl: 
 google_analytics: 'UA-xxxxxxxx-1'
 disqus: 'YK'
